@@ -547,7 +547,7 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema: 'UNIDAD 2',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -556,28 +556,30 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál de los siguientes es un ejemplo de trastorno del lenguaje expresivo?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto:
+                  'Dificultad para comprender una historia leída en voz alta.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto:
+                  'Problemas para encontrar las palabras adecuadas para expresar una idea.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Dificultad para seguir instrucciones verbales.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Sensibilidad excesiva a los sonidos.',
                 esCorrecta: false,
               },
             ],
@@ -587,28 +589,28 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              '¿Cuál de los siguientes trastornos se caracteriza principalmente por dificultades en la comunicación social y la interacción, así como patrones de comportamiento repetitivos y restringidos?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'TDAH',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Trastorno del lenguaje expresivo',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Trastorno del espectro autista',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Discapacidad motora',
                 esCorrecta: false,
               },
             ],
@@ -618,28 +620,28 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Cuál de las siguientes es una característica común del trastorno por déficit de atención e hiperactividad (TDAH)?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Dificultad para comprender el lenguaje hablado',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Problemas de visión',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Dificultad para mantener la atención',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Dificultad para caminar o coordinar movimientos',
                 esCorrecta: false,
               },
             ],
@@ -648,28 +650,29 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Qué tipo de discapacidad se caracteriza por una pérdida total o parcial de la visión?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Discapacidad motora',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Discapacidad auditiva',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Discapacidad visual',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Trastorno del lenguaje',
                 esCorrecta: false,
               },
             ],
@@ -679,28 +682,31 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿Cuál de las siguientes afirmaciones sobre los trastornos del desarrollo es CORRECTA?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto:
+                  'Los trastornos del desarrollo siempre son causados por factores genéticos.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto:
+                  'Los trastornos del desarrollo no pueden ser diagnosticados en la edad adulta.',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'Los trastornos del desarrollo pueden afectar diferentes áreas del desarrollo, como el lenguaje, la cognición y la motricidad.',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'Los trastornos del desarrollo siempre tienen una cura.',
                 esCorrecta: false,
               },
             ],
