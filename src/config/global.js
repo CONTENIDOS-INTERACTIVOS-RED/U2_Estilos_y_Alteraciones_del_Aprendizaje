@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '2',
+    tituloUnidad: 'Estilos y alteraciones del aprendizaje',
   },
   menuPrincipal: {
     menu: [
@@ -15,7 +15,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Trastornos del desarrollo neurológico',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -36,7 +36,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Trastorno del lenguaje y la comunicación',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -63,7 +63,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Trastorno del Espectro Autista.',
         desarrolloContenidos: true,
         subMenu: [
           {
