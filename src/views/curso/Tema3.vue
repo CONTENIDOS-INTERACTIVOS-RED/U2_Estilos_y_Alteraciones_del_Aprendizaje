@@ -483,22 +483,28 @@
 
       p(data-aos="fade-up").mb-5 Los trastornos del desarrollo sensorial motórico afectan la capacidad de una persona para procesar estímulos sensoriales y responder a ellos con movimientos adecuados. Estos trastornos pueden impactar el equilibrio, la coordinación, la percepción del espacio y la integración de la información sensorial con la motricidad.
 
-      .bg-full-width.bg-color-5
-        .px-4.p-md-5
-          .row.justify-content-center.align-items-center
-            .col-lg-4
-              figure(data-aos="zoom-in")
-                img(src='@/assets/curso/tema3/21.png', alt='')
-      
-            .col-lg-8
-              h2.mb-4(data-aos="flip-up") Trastornos del desarrollo sensorial motórico 
-              p.mb-4(data-aos="fade-right") Se invita a profundizar en el conocimiento sobre el Trastorno por Déficit de Atención con Hiperactividad/Impulsividad (TDAH), explorando su evolución histórica, características diagnósticas y estrategias de tratamiento. A través de esta revisión, se comprenderán los síntomas principales del TDAH según el DSM-5, su impacto en la vida cotidiana y las intervenciones más efectivas en el ámbito educativo y clínico
-      
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
-                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
-                  img(src="@/assets/template/icono-pdf.svg")
-                .anexo__texto
-                  p <strong>Anexo. </strong> Trastornos del desarrollo sensorial motórico 
+      .bg-full-width.border-top.color-primario
+        .p-4.p-md-5
+          h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+          .row.material-complementario
+            .col-12.col-md-6.col-lg-7
+              p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar y enriquecer su aprendizaje en los temas tratados en esta unidad.
+              
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=vyZnvgvgm5c&t=136s" target="_blank" rel="noopener noreferrer") Fernández, E. N. M. [@elneuropediatra]. (2020, 14 de febrero). Trastornos del NEURODESARROLLO. [Claves para padres, educadores y profesionales sanitarios]. Youtube.
+              
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=gWmCd201IHw&t=85s" target="_blank" rel="noopener noreferrer") Sprouts Español. (2021, 2 de diciembre). TDAH en la escuela: signos, síntomas, ejemplos y soluciones. Youtube.
+              
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=zRM3sVJYqbk" target="_blank" rel="noopener noreferrer") CanalFenascol. (2023, 11 de octubre). La Lengua de Señas es un derecho y en Colombia la Ley 324 de 1996 lo reconoce. Youtube.
+            
+            .col-12.col-md-6.col-lg-3.offset-lg-1
+              figure
+                img(src='@/assets/componentes/material-complementario.svg', alt='')
       
 
       .bg-full-width.border-top.actividad.bg-color-actividad

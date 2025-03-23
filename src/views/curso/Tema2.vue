@@ -274,26 +274,53 @@
       
 
 
-
       .bg-full-width.border-top.color-primario
         .p-4.p-md-5
           h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
           .row.material-complementario
             .col-12.col-md-6.col-lg-7
-              p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-  
+              p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar y enriquecer su aprendizaje en los temas tratados en esta unidad.
+              
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-  
+                a(href="https://fundacionadecco.org/blog/que-es-la-discapacidad-motora/" target="_blank" rel="noopener noreferrer") Arranz, E. (11 de abril, 2023). Discapacidad Motora: Qué es y sus tipos. El Blog de empleo de Fundación Adecco.
+              
               p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-  
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://elibro.net/es/ereader/tecnologicadeloriente/121101?page=1" target="_blank" rel="noopener noreferrer") Chirel, M. & Gouveria, M. D. (Dir.). (2018). Programa de formación docente para integrar al aula regular a niños (as) con discapacidad visual: ( ed.). D - Universidad de Carabobo.
+              
               p.d-flex.my-4
-                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
-  
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://formainfancia.com/discapacidad-motriz-tipos-causas/" target="_blank" rel="noopener noreferrer") Formainfancia. (13 de enero, 2020). Cuáles son las principales causas de la discapacidad motriz. Formainfancia European School.
+              
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://revistaselectronicas.ujaen.es/index.php/riai/article/view/4141/3367" target="_blank" rel="noopener noreferrer") García, J. C. (2015). La discapacidad auditiva. Principales modelos y ayudas técnicas para la intervención. Revista Internacional de apoyo a la inclusión, logopedia, sociedad y multiculturalidad, 1(1), 24-36.
+              
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://lahistoria.info/historia-de-los-sordos-en-colombia/" target="_blank" rel="noopener noreferrer") LaHistoria. (1 de octubre 2024). Historia de los Sordos en Colombia. LaHistoria.
+              
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://lenguasyliteraturasnativas.caroycuervo.gov.co/nuestras-lenguas/lengua-de-senas-colombiana/" target="_blank" rel="noopener noreferrer") Lengua de señas colombiana - Portal de Lenguas de Colombia: Diversidad y contacto. (2023, julio 4). Portal de Lenguas de Colombia: Diversidad y contacto.
+              
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://mimundopequeno.com/como-ensenar-a-ninos-con-discapacidad-auditiva/" target="_blank" rel="noopener noreferrer") Narvaez, S. S. (14 de julio, 2020). Cómo enseñar a niños con discapacidad auditiva. Blog Preescolar Nuestro Pequeño Mundo.
+              
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.tuasaude.com/es/sordera/" target="_blank" rel="noopener noreferrer") Rodríguez, R. M. (29 de octubre 2024). Sordera: tipos, síntomas, causas y tratamiento. Tua Saúde.
+              
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://educacionespecial.sep.gob.mx/storage/recursos/2023/07/uOSIf43OO4-230301_Tomo6_DiscapacidadMotriz.pdf" target="_blank" rel="noopener noreferrer") Secretaría de Educación del Gobierno del Estado de Yucatán. (2022). Discapacidad Motriz. Tomo 6.
+              
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://archivos.csif.es/archivos/andalucia/ensenanza/revistas/csicsif/revista/pdf/Numero_16/SABINA_PABON_2.pdf" target="_blank" rel="noopener noreferrer") Serrato, S. (2009). La discapacidad auditiva, ¿cómo es el niño sordo. Revista digital innovación y experiencias educativas, 16, 1-10.
+            
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure
                 img(src='@/assets/componentes/material-complementario.svg', alt='')
