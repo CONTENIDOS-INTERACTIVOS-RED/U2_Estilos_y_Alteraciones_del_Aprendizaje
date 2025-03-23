@@ -85,25 +85,25 @@
                 h4.text-center.mb-3 Terapia ocupacional
                 p.mb-0.text-center Fortalece habilidades motoras y sensoriales.
 
-                div.col-lg-3.mb-4(data-aos="zoom-in-up")
-                  div.bg-color-white.box-shadow.px-4.py-5.h-100
-                    img.mx-auto.d-block.mb-4(
-                      src="@/assets/curso/tema3/4.svg"
-                      alt="Ícono Terapia del lenguaje"
-                      style="width: 90px"
-                    )
-                    h4.text-center.mb-3 Terapia del lenguaje
-                    p.mb-0.text-center Desarrolla la comunicación verbal y no verbal.
+            div.col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema3/4.svg"
+                  alt="Ícono Terapia del lenguaje"
+                  style="width: 90px"
+                )
+                h4.text-center.mb-3 Terapia del lenguaje
+                p.mb-0.text-center Desarrolla la comunicación verbal y no verbal.
 
-                div.col-lg-3.mb-4(data-aos="zoom-in-up")
-                  div.bg-color-white.box-shadow.px-4.py-5.h-100
-                    img.mx-auto.d-block.mb-4(
-                      src="@/assets/curso/tema3/5.svg"
-                      alt="Ícono Intervenciones educativas"
-                      style="width: 90px"
-                    )
-                    h4.text-center.mb-3 Intervenciones educativas individualizadas (PiAR)
-                    p.mb-0.text-center Ajustes razonables en el aula para garantizar inclusión.
+            div.col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema3/5.svg"
+                  alt="Ícono Intervenciones educativas"
+                  style="width: 90px"
+                )
+                h4.text-center.mb-3 Intervenciones educativas individualizadas (PiAR)
+                p.mb-0.text-center Ajustes razonables en el aula para garantizar inclusión.
 
 
       .bg-full-width.bg-color-8.mb-5
