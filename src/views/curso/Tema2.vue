@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. Título tema'")
+    BannerInterno(:subTitulo="'2. Trastorno del lenguaje y la comunicación'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
       .bg-color-1.mb-5(data-aos="fade-up")
@@ -90,9 +90,8 @@
                 p.mb-0 Dificultades en la narración y discurso
       
 
-      h2(data-aos="fade-left").mb-4 Causas de los trastornos del neurodesarrollo
-      p(data-aos="fade-up").mb-4 Según Chappotin (2022), las causas pueden agruparse en cuatro categorías principales:
-
+      h2(data-aos="fade-left").mb-4 Tipos de trastornos del lenguaje
+      p(data-aos="fade-up").mb-4 Según la Escuela de Postgrado de Psicología y Psiquiatría (2021), los trastornos del lenguaje pueden clasificarse en:
       div.row.justify-content-center.align-items-stretch.mb-5#b2
         div.col-lg-4.mb-4(data-aos="zoom-in-up")
           div.bg-color-white.box-shadow.px-4.py-5.h-100

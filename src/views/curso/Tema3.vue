@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Trastorno del Espectro Autista.'")
+    BannerInterno(:subTitulo="'3. Trastorno del Espectro Autista'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
       .bg-full-width.bg-color-5
@@ -26,7 +26,7 @@
         .p-4.p-md-5
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/3TX6N6tvOZo?si=KEL2OSpyFVOX8oa-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
       h2(data-aos="fade-up").mb-4 a) Tipos o grados del TEA
@@ -152,22 +152,26 @@
       .bg-full-width.PurpleContainer.pt-5
         .px-4.px-md-5
           p.mb-0.text-center Estas estrategias favorecen la inclusión de los estudiantes con TEA y potencian su desarrollo en el aula.
+
+
+
       .bg-full-width.SplitContainer2.mb-5.pt-5
         .row.justify-content-center
           .col-lg-8
             .bg-color-white.shadow-soft.py-4.px-lg-5(data-aos="fade-up")
               .row.justify-content-around.align-items-center
                 .col-md-auto
-                  img(src="@/assets/template/video.svg", style="width: 90px;")
+                  img(src="@/assets/template/bg-icono-link.svg", style="width: 90px;")
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      h3.mb-1 Trastornos del neurodesarrollo
-                      p.mb-0 Para conocer más sobre estos trastornos, se recomienda ver el siguiente video.
+                      h3.mb-1 Orientaciones pedagógicas para la atención educativa a estudiantes con autismo
+                      p.mb-0 Si desean profundizar en estas estrategias, los invitamos a revisar el siguiente material.
                     .col-sm-auto
-                      a.boton.color-acento-botones.texto-blanco(href="URL del enlace" target="_blank")
-                        span Ver video
+                      a.boton.color-acento-botones.texto-blanco(href="https://fundacionintegrar.org/wp-content/uploads/2013/07/orientacionespedagogicasministeriodeeducacioncolombia.pdf" target="_blank")
+                        span Ver anexo
                         i.fas.fa-arrow-right
+
 
 
       h2(data-aos="fade-up").mb-4 Trastorno por Déficit de Atención con Hiperactividad/Impulsividad (TDAH)
@@ -184,7 +188,7 @@
       
             .col-lg-7
               h2.mb-4(data-aos="flip-up") Trastorno por Déficit de Atención con Hiperactividad/Impulsividad (TDAH)
-              p.mb-4(data-aos="fade-right") Se invita a profundizar en el conocimiento sobre el Trastorno por Déficit de Atención con Hiperactividad/Impulsividad (TDAH) , explorando su evolución histórica, características diagnósticas y estrategias de tratamiento. A través de esta revisión, se comprenderán los síntomas principales del TDAH según el DSM-5, su impacto en la vida cotidiana y las intervenciones más efectivas en el ámbito educativo y clínico.
+              p.mb-4(data-aos="fade-right") Se invita a profundizar en el conocimiento sobre el Trastorno por Déficit de Atención con Hiperactividad/Impulsividad (TDAH), explorando su evolución histórica, características diagnósticas y estrategias de tratamiento. A través de esta revisión, se comprenderán los síntomas principales del TDAH según el DSM-5, su impacto en la vida cotidiana y las intervenciones más efectivas en el ámbito educativo y clínico.
       
               a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
@@ -405,26 +409,34 @@
       h3(data-aos="fade-up").mb-4 Tratamiento y estrategias en el aula
       p(data-aos="fade-up").mb-5 El TDI no tiene cura, pero la educación especial y los programas de rehabilitación pueden mejorar la calidad de vida de los afectados. Según Sanders (2024), los programas de intervención pueden ayudar a desarrollar habilidades esenciales como vestirse, manejar dinero y comunicarse. El objetivo es lograr la mayor autonomía posible para cada persona. Las principales intervenciones son:
 
-      imagen.row.align-items-start.mb-5
+      .row.align-items-start.mb-5
         .col-lg-4
           figure
-            img(src="@/assets/curso/tema3/19.svg", alt="").mb-4.mb-lg-0
+            img(src="@/assets/curso/tema3/22.png", alt="").mb-4.mb-lg-0
         .col-lg-8
 
-        .div(titulo="Terapia del lenguaje")
-          p Busca mejorar la capacidad de comunicación, desarrollando habilidades como la articulación, el vocabulario y la comprensión del lenguaje. Es crucial para niños con dificultades en el habla, ayudándolos a expresarse y socializar de manera efectiva.
-
-        .div(titulo="Terapia ocupacional")
-          p Se centra en la adquisición de habilidades para la vida diaria, como vestirse, alimentarse y escribir. Además, fortalece la motricidad fina y la coordinación, promoviendo la independencia del niño en su entorno cotidiano.
-
-        .div(titulo="Terapia física")
-          p Desarrolla el control muscular y la movilidad, trabajando en habilidades motoras gruesas como caminar, correr y mantener el equilibrio. Es esencial para niños con trastornos del desarrollo que afectan la coordinación y el tono muscular.
-
-        .div(titulo="Intervenciones psicológicas")
-          p Ayudan a regular emociones, mejorar la autoestima y desarrollar estrategias de adaptación. Incluyen terapia cognitivo-conductual para manejar la ansiedad, el estrés y dificultades en la interacción social.
+        
+          AcordionA(tipo="b")
 
 
-      p(data-aos="fade-up").mb-5 Las estrategias en el aula son:
+            .div(titulo="Intervención temprana")
+              p Programas diseñados para detectar y tratar dificultades en las primeras etapas de desarrollo. Incluyen estimulación motora, cognitiva y social para maximizar el potencial del niño y reducir barreras en el aprendizaje y la comunicación.
+
+
+            .div(titulo="Terapia del lenguaje")
+              p Busca mejorar la capacidad de comunicación, desarrollando habilidades como la articulación, el vocabulario y la comprensión del lenguaje. Es crucial para niños con dificultades en el habla, ayudándolos a expresarse y socializar de manera efectiva.
+
+            .div(titulo="Terapia ocupacional")
+              p Se centra en la adquisición de habilidades para la vida diaria, como vestirse, alimentarse y escribir. Además, fortalece la motricidad fina y la coordinación, promoviendo la independencia del niño en su entorno cotidiano.
+
+            .div(titulo="Terapia física")
+              p Desarrolla el control muscular y la movilidad, trabajando en habilidades motoras gruesas como caminar, correr y mantener el equilibrio. Es esencial para niños con trastornos del desarrollo que afectan la coordinación y el tono muscular.
+
+            .div(titulo="Intervenciones psicológicas")
+              p Ayudan a regular emociones, mejorar la autoestima y desarrollar estrategias de adaptación. Incluyen terapia cognitivo-conductual para manejar la ansiedad, el estrés y dificultades en la interacción social.
+
+
+      p.mb-4 Las estrategias en el aula son:
 
       .bg-full-width.bg-color-7.mb-5
         .px-4.px-md-5.pt-5
@@ -482,6 +494,25 @@
       h2(data-aos="fade-up").mb-4 Trastornos del desarrollo sensorial motórico
 
       p(data-aos="fade-up").mb-5 Los trastornos del desarrollo sensorial motórico afectan la capacidad de una persona para procesar estímulos sensoriales y responder a ellos con movimientos adecuados. Estos trastornos pueden impactar el equilibrio, la coordinación, la percepción del espacio y la integración de la información sensorial con la motricidad.
+
+
+      .bg-full-width.bg-color-5
+        .px-4.p-md-5
+          .row.justify-content-center.align-items-center
+            .col-lg-4
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema3/23.png', alt='')
+      
+            .col-lg-8
+              h2.mb-4(data-aos="flip-up") Trastornos del desarrollo sensorial motórico
+              p.mb-4(data-aos="fade-right") Se invita a profundizar en el conocimiento sobre el Trastorno por Déficit de Atención con Hiperactividad/Impulsividad (TDAH), explorando su evolución histórica, características diagnósticas y estrategias de tratamiento. A través de esta revisión, se comprenderán los síntomas principales del TDAH según el DSM-5, su impacto en la vida cotidiana y las intervenciones más efectivas en el ámbito educativo y clínico
+      
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
+                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p <strong>Anexo. </strong> Trastornos del desarrollo sensorial motórico
+      
 
       
 

@@ -1,7 +1,8 @@
 export default {
   global: {
     numeroUnidad: '2',
-    tituloUnidad: 'Estilos y alteraciones del aprendizaje',
+    tituloUnidad:
+      'Trastornos del desarrollo del aprendizaje neurológico y sensorial-motórico.',
   },
   menuPrincipal: {
     menu: [
@@ -17,20 +18,6 @@ export default {
         numero: '1',
         titulo: 'Trastornos del desarrollo neurológico',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
@@ -38,26 +25,6 @@ export default {
         numero: '2',
         titulo: 'Trastorno del lenguaje y la comunicación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -65,20 +32,6 @@ export default {
         numero: '3',
         titulo: 'Trastorno del Espectro Autista.',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
